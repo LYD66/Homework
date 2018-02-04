@@ -1,0 +1,54 @@
+第一章 
+	21
+第七题
+	（1）spamspamspam
+	 (2)spamspamspam
+第十题
+	因为99是一个数而不是一个字符串不能用+直接连接需要变为'I have eaten'+str(99)+'burritos.'
+  第二章
+  第三题
+	（1）and:
+		True and True        True
+		True and False	     False
+		False and True       False
+		False and False      False
+	(2) or:
+		True or True         True
+		True or False        True
+		False or True        True
+		False or False       False
+	(3) not:
+		not True             False
+		not False            True
+第四题
+	（1）False (2)False (3)True (4)False (5)False (6)True
+  第九题
+  spam=input("请输入数字")
+if spam == '1':
+    print("Hello")
+elif spam == '2':
+    print("Howdy")
+else:
+    print("Greetings")spam=input("请输入数字")
+if spam == '1':
+    print("Hello")
+elif spam == '2':
+    print("Howdy")
+else:
+    print("Greetings")
+    第十三题
+    （1）for i in range(1,11):print(i)
+    (2)i = 0
+while i<10:
+    i=i+1
+    print(i)
+    第三章
+    # collatz():
+number = int(input("请输入数字")
+ A=number%2
+    if A = = 0:
+        print ("number//2")
+        return number
+    elif A = = 1:
+        print(collatz())
+        return(3 * number + 1)
